@@ -1,0 +1,57 @@
+.image-thumb {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.image-thumb-action {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  top: 5%;
+  border-radius: 5px;
+}
+
+.image-thumb-action.add {
+  right: 5%;
+}
+
+.image-thumb-action.like {
+  right: 12%;
+}
+
+.image-thumb-action:hover{
+  border: 1px solid #7f8686;
+}
+.image-thumb-action.add:hover,
+.image-thumb-action.like:hover {
+  background: #eeee;
+}
+
+@media (max-width: 600px){
+  .image-thumb img{
+    max-width: 100%;
+  }
+  .image-thumb-action.add {
+     right: 10px;
+    height: 30px;
+
+    font-size: 15px;
+   }
+
+  .image-thumb-action.like {
+    right: 50px;
+    height: 30px;
+    font-size: 15px;
+  }
+  .image-thumb-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
