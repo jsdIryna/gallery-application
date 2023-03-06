@@ -2,7 +2,7 @@
   "name": "gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jsdIryna.github.io/gallery-app",
+  "homepage": "https://jsdIryna.github.io/gallery-application",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
